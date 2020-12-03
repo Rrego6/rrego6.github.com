@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url(SourceCodePro-Medium.ttf) format("truetype");
+}
+
+body{
+	color:black;
+	font-family: 'Source Code Pro', monospace;
+	margin:0px auto;
+	max-width:700px;
+}
+.main {
+	padding: 2em;
+}
+.big_greeting {
+	font-size: 3em;
+	display:iline-block
+}
+.animation {
+text-align: center;
+	oveflow:hidden;
+}
+#turbine {
+display:block;
+margin:auto;
+}
+
+a { 
+color:green;
+}
