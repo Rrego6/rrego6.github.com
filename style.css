@@ -8,9 +8,10 @@ body{
 	font-family: 'Source Code Pro', monospace;
 	margin:0px auto;
 	max-width:700px;
+	padding: 2em;
+
 }
 .main {
-	padding: 2em;
 }
 .big_greeting {
 	font-size: 3em;
