@@ -14,9 +14,9 @@
 <div class="big_greeting"><p><div>Hi!</div> <div>I&apos;m Raoul.</div></p></div>
     <p>I am a software developer with interests in:</p>
 	<ul>
-		<li>GNU/Linux &amp; Free Software</li>
+		<li>GNU/Linux &amp; free Software</li>
 		<li>Full-stack web development</li>
-		<li>DevOps &amp; System administration</li>
+		<li>DevOps &amp; system administration</li>
 		<li>Music &amp; radio</li>
 		<li>Literature</li>
 	</ul>
@@ -24,6 +24,15 @@
 	<p>I am looking for new opportunities! Have a look at my <a href="https://raw.githubusercontent.com/Rrego6/resume/master/resume.pdf">resume</a>.</p>
 </main>
 <div class="animation">
+	<img id="turbine" src="spinner.svg">
 </div>
+<script src="propeller.min.js"></script>
+<script>
+    new Propeller(document.getElementById('turbine'), {
+	speed: 8,
+        inertia: 0.99
+    });
+</script>
+<small><a href=https://github.com/PixelsCommander/Propeller>Propeller.js license</a></small>
 </body>
 </html>
