@@ -23,7 +23,9 @@ text-align: center;
 }
 #turbine {
 display:block;
+width: 200px;
 margin:auto;
+filter: invert(28%) sepia(83%) saturate(7467%) hue-rotate(129deg) brightness(94%) contrast(102%);
 }
 
 a { 
